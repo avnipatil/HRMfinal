@@ -1,0 +1,27 @@
+
+.allin_tabpro {
+    border-radius: 50%;
+    height: 45px;
+}
+/* Table Status */
+.Status_interview {
+    background-color: #1fa37c;
+    color: #fff;
+    padding: 2px;
+    border-radius: 0px 10px;
+}
+.intTable-header {
+    padding: 5px 0px;
+    font-size: 25px;
+}
+.border-bottom td {
+    text-align: center;
+}
+/* filter icon */
+.select-filter {
+    background-image: url(../../assets/images/Interviewer_IMG/filter.jpg) !important;
+    height: 10px !important;
+    font-size: .75rem !important;
+    border: none !important;
+    background-position: left 0.75rem center !important;
+}

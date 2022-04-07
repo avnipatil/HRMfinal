@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Dash-logo {
+  font-size: 30px;
+  padding: 0px 0px;
+  padding: 0px 80px;
+}
+
+.Total-cards .card,
+.events .card,
+.Gender-chart .card,
+.Upcoming-Events .card,
+.Recently-joined .card {
+  padding: 15px 15px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.calendet-date {
+  padding: 8px 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 5px;
+  line-height: 16px;
+  height: fit-content;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.Upcoming-table-dash .table {
+  border-color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sidebar-text-content {
+
+  background: #f1f4fb;
+  color: #263871;
+  text-align: left !important;
+}
+
+.Page-Content {
+  padding: 100px 10px 20px 10px;
+}
+
+/* ///////events Color block ///////////// */
+.blockText1 {
+  padding: 8px 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 5px;
+  line-height: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  color: blue;
+  background: #e8eaf6;
+}
+
+.blockText2 {
+  padding: 8px 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 5px;
+  line-height: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #bf360c;
+  background: #ffcdd2ab;
+
+}
+
+/* /////Buttons////// */
+.action-button {
+  border-radius: 4px;
+  padding: 1px 6px 6px 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn-mail {
+  color: green;
+  border: green 1px solid;
+}
+
+.btn-mail:hover {
+  background-color: green;
+  color: white;
+}
+
+.btn-call {
+  color: blue;
+  border: blue 1px solid;
+}
+
+.btn-call:hover {
+  background-color: blue;
+  color: white;
+}
+
+.btn-delete {
+  color: red;
+  border: red 1px solid;
+}
+
+.btn-delete:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Error  css*/
+.form-error-login {
+  text-indent: 15px;
+  font-size: 14px;
+  color: #ff0000;
+}
+
+/* / Table Loader css / */
+.loader_table {
+  padding: 6px;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin: 0;
+  z-index: 9999;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #263871;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+/* / Safari / */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

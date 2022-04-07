@@ -1,0 +1,173 @@
+.body {
+  justify-content: center;
+  background-color: #FFFCFF;
+}
+
+.ButtonNav {
+  margin-right: 2.5px;
+  margin-left: 15.5px;
+  width: 75px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px gray;
+  border: none;
+  outline: none;
+  padding: 0px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+#header {
+  padding: 10px;
+  color: #36f;
+  font-size: 26px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header .ButtonNav {
+  background-color: #36f;
+}
+
+#weekdays {
+  display: flex;
+  color: #247BA0;
+  justify-content: space-around;
+}
+
+#calendar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day {
+  width: 7.5vw;
+  padding: 10px;
+  height: 15vh;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 5px;
+  box-shadow: 0px 0px 3px #CBD4C2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.day:hover {
+  background-color: #e8faed;
+}
+
+.day+.currentDay {
+  background-color: #e8f4fa;
+}
+
+.event {
+  font-size: 10px;
+  padding: 3px;
+  background-color: #58bae4;
+  color: white;
+  border-radius: 5px;
+  max-height: 55px;
+  overflow: hidden;
+}
+
+.padding {
+  cursor: default !important;
+  background-color: #FFFCFF !important;
+  box-shadow: none !important;
+}
+
+#newEventModal,
+#deleteEventModal {
+  z-index: 20;
+  padding: 25px;
+  background-color: white;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  width: 350px;
+  top: 125px;
+  left: calc(50% - 175px);
+  position: absolute;
+  font-family: sans-serif;
+}
+
+.actiobButtonsSV {
+  justify-content: space-between;
+  display: flex;
+  padding: 0px 40px;
+}
+
+#eventTitleInput,
+#eventDescriptionInput {
+  padding: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 3px gray;
+}
+
+#eventTitleInput.error,
+#eventDescriptionInput.error {
+  border: 2px solid red;
+}
+
+#cancelButton,
+#deleteButton {
+  background-color: gray;
+  color: white;
+}
+
+#saveButton,
+#closeButton {
+  background-color: #36f;
+  color: white;
+}
+
+#eventText {
+  font-size: 14px;
+}
+
+#modalBackDrop {
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: none;
+}
+
+@media (max-width:992px) {
+  .day {
+    width: 11vw;
+    padding: 5px;
+    height: 16vh;
+  }
+}
+
+@media (max-width:768px) {
+  .day {
+    width: 10vw;
+    padding: 5px;
+    height: 15vh;
+  }
+
+  #weekdays {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 412px) {
+  .day {
+    width: 10.7vw;
+    padding: 2px;
+    height: 15vh;
+  }
+}

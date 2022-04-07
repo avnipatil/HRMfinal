@@ -1,0 +1,124 @@
+.dashboard {
+    overflow: hidden;
+}
+
+.sidebar-text-content {
+
+    background: #f1f4fb;
+    color: #263871;
+    text-align: left !important;
+}
+
+.border-Bgray {
+    border-bottom: 1px solid #4b4d4f !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.overlayChart {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Rec-Jobs .nav-tabs .nav-link {
+    background: #ebeff8;
+    border: 1px solid #e9ebfa;
+    border-bottom: 0;
+    border-radius: 8px 8px 0 0;
+    margin: 0 0.3rem -1px;
+    font-weight: 500;
+    color: #424e79;
+}
+
+.Rec-Jobs .nav-link,
+.nav-tabs .nav-link.active {
+    background: white;
+}
+
+.avatar {
+    background: #36f no-repeat 50%/cover;
+    color: #fff;
+    display: inline-block;
+    font-size: .875rem;
+    font-weight: 600;
+    height: 2rem;
+    line-height: 2rem;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.avatar-md {
+    font-size: 1rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 2.5rem;
+}
+
+.table td {
+    border-top: 0;
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+.Upcoming-table-dash .table td {
+    padding: 8px !important;
+}
+
+@media (max-width:991px) {
+    .Dash-logo {
+        padding: 0px 0px;
+    }
+}
+
+/* Skeleton */
+.Skeleton-Dash {
+    height: 50px;
+    background: linear-gradient(to right,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0) 80%),
+        #efecec;
+    background-repeat: repeat-y;
+    background-size: 50px 500px;
+    background-position: 0 0;
+    animation: shine 1s infinite;
+    margin-bottom: 15px;
+}
+
+.Sk1 {
+    height: 17px;
+    width: 90px;
+    background: linear-gradient(to right,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0) 80%),
+        #efecec;
+    background-repeat: repeat-y;
+    background-size: 50px 500px;
+    background-position: 0 0;
+    animation: shine 1s infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position: 100% 0;
+    }
+}
+
+.gray-color {
+    color: #263871;
+}
+

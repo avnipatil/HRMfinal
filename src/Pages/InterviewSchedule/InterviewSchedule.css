@@ -1,0 +1,11 @@
+
+.interview_head{display:flex;align-items:center;justify-content:center;color: #36f;}
+.intScheduleForm-header{padding: 5px 0px;font-size: 25px;}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] { -moz-appearance: textfield;}

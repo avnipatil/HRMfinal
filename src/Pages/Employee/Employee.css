@@ -1,0 +1,64 @@
+.perform_box {
+    box-shadow: 0 0.3rem 1.525rem -0.375rem #2e282821;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.empadd_card {
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.emplist_top {
+    margin: 0 2%;
+    padding-top: 6%;
+}
+
+.allemp_table {
+    font-size: 14px;
+}
+
+.tab_head {
+    color: #313e6a;
+    font-size: .875re;
+    text-transform: capitalize;
+}
+
+.allemp_tabpro {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+@media screen and (min-width:320px)and (max-width:1024px) {
+    .loader_table {
+        top: 104%;
+        left: 40%;
+        position: none;
+    }
+}
+
+@media screen and (min-width:320px)and (max-width:575px) {
+    .emplist_top {
+        padding-top: 35%;
+    }
+}
+
+@media screen and (min-width:575px)and (max-width:767px) {
+    .emplist_top {
+        padding-top: 27%;
+    }
+}
+
+@media screen and (min-width:768px)and (max-width:1024px) {
+    .perform_box1 {
+        padding: 10% 0px !important;
+    }
+
+    .emplist_top {
+        padding-top: 15%;
+    }
+}

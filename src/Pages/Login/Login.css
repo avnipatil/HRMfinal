@@ -1,0 +1,114 @@
+.Login-Form-HRM {
+  background-image: url(../../assets/images/Loginbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh !important;
+  cursor: pointer;
+}
+
+.Login-form {
+  box-shadow: 0px 0px 0px 20px #296cad;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.Login-form,
+.form-group {
+  margin-bottom: 2rem !important;
+  cursor: pointer;
+}
+
+.form-in {
+  border-radius: 25px;
+  width: 100% !important;
+  height: 40px;
+  cursor: pointer;
+}
+.form-icon {
+  border-radius: 50%;
+  background-color: #e3effa;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+  padding-top: 7px;
+}
+
+.form-icon_login {
+  border-radius: 50%;
+  background-color: #e3effa;
+  width: 50px;
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+  padding-top: 7px;
+}
+/* error background color */
+.backcolor-error {
+  padding: 5px;
+  font-weight: 700;
+  color: #ff0000;
+  font-size: 20px;
+}
+/* animation for text */
+.Login_Title h2 {
+  text-shadow: 3px 3px rgb(236, 223, 35);
+  color: #fff;
+  font-weight: 900;
+  font-size: 40px !important;
+}
+.Login_Title h2:hover {
+  color: #1d1d1d;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(109, 205, 218),
+    0 0 5px rgb(101, 123, 184);
+}
+/* Mobile View */
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  .Login-form {
+    position: initial !important;
+    transform: none !important;
+    height: 400px !important;
+    box-shadow: none !important;
+  }
+  .Login_Title h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 768px) {
+  .Login-form {
+    position: initial !important;
+    transform: none !important;
+    height: 350px !important;
+  }
+  .Login_Title h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  .Login-form {
+    position: initial !important;
+    transform: none !important;
+    height: 350px !important;
+  }
+
+  .Login_Title h2 {
+    font-size: 25px;
+  }
+}
+
+
